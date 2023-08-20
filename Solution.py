@@ -48,15 +48,3 @@ def not_in_string_list_comprehension(original_str, chars_to_delete):
     :return: The list you created
     """
     return [letter for letter in original_str if letter not in chars_to_delete]
-
-
-def main():
-    #dictionary_basic()
-    print(basic_list_comprehension(10))
-    #print(square_list_comprehension(10)
-    #print(not_in_string_list_comprehension("Hello World", "oH"))
-    #print(seven_BOOM_list_comprehension(30))
-
-
-if __name__ == '__main__':
-    main()
